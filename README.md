@@ -8,8 +8,9 @@ and hey, maybe tell you who wins an election.
 
 ### What I have so far:
 
- * Testing validations:
- ** Candidate:
+ *Testing validations:*
+ 
+ Candidate:
   ```ruby
   test "candidate has party" do
     assert Candidate.new(name: "FeelThe Bern", hometown: "Brooklyn", district: "SHIMOKITAZAWA", party: "Bleeding Heart Single Moms Party").save
@@ -17,7 +18,7 @@ and hey, maybe tell you who wins an election.
   end
   ```
 
-** Voter:
+Voter:
   ```ruby
   test "voter has party" do
     assert Voter.new(name: "Renee", party: "Bring Back Arrested Development Party").save
