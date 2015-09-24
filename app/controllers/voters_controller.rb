@@ -42,12 +42,4 @@ class VotersController < ApplicationController
     Voter.find(params[:id]).json
     render json: "You deleted that!"
   end
-
-def show
-  voter = Voter.find(params[:id])
-  if voter.access_token == params[:access_token]
-    render json: voter
-  else
-    render json: "Wrong access token"
-  end
 end
