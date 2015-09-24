@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+bern:
+  name: FeelThe Bern
+  hometown: Brooklyn
+  district: SHIMOKITAZAWA
+  party: Bleeding Heart Single Moms Party
+
+two:
+  name: MyString
+  hometown: MyString
+  district: MyString
+  party: MyString
